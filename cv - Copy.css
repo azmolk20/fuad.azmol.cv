@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: 8ec1e5;
+    font-family: Lucida Console;
+}
+.con{
+    max-width: 1000px;
+    background-color: rgb(45, 148, 143);
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: left;
+}
+.bio{
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(255, 255, 255);
+}
+.contact a{
+    float: right;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-top: 25px;
+    padding-right: 40px;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: rgb(194, 82, 209);
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.persional{
+
+}
+.pr{
+
+}
+.left{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+}
+.right{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.auto{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.o{
+    background-color: black;
+    height: 120px;
+    width: 1000px;
+    text-align: center;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.k{
+    text-decoration: none;
+    color: gainsboro;
+}
+.k:hover{
+    text-decoration: underline;
+    text-transform: unset;
+    color: crimson;
+}
